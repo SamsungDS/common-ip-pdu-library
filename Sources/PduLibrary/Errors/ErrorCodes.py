@@ -1,0 +1,30 @@
+REST_SERVER_WORKING_FOLDER_CREATE_FAILURE = 101
+REST_SERVER_ALREADY_RUNNING = 102
+ERROR_WHILE_STARTING_REST_SERVER = 103
+INVALID_REST_SERVER_HOST = 104
+INVALID_REST_SERVER_PORT = 105
+REST_SERVER_NOT_RUNNING = 106
+REST_SERVER_SHUTDOWN_REQUEST_TIMEDOUT = 107
+REST_SERVER_SHUTDOWN_REQUEST_FAILED = 109
+
+ERROR_WHILE_FETCHING_PDU_INFO = 1001
+ERROR_WHILE_FETCHING_PORT_INFO = 1002
+ERROR_WHILE_POWERING_ON_PORT = 1003
+ERROR_WHILE_POWERING_OFF_PORT = 1004
+ERROR_WHILE_REBOOTING_PORT = 1005
+
+ErrorMessages = {
+    REST_SERVER_WORKING_FOLDER_CREATE_FAILURE: 'Error while creating working folder for rest server. Details : {0}',
+    REST_SERVER_ALREADY_RUNNING: 'An instance of Rest Server is already running. {0}',
+    ERROR_WHILE_STARTING_REST_SERVER: 'An error occurred while starting the rest server. {0}',
+    INVALID_REST_SERVER_HOST: 'Invalid value for Rest Server host. {0}',
+    INVALID_REST_SERVER_PORT: 'Invalid value for Rest Server Port. {0}',
+    REST_SERVER_NOT_RUNNING: 'Rest server is not running. {0}',
+    REST_SERVER_SHUTDOWN_REQUEST_TIMEDOUT: 'Timed out while rest server shutdown request. {0}',
+    REST_SERVER_SHUTDOWN_REQUEST_FAILED: 'Cannot shutdown',
+    ERROR_WHILE_FETCHING_PDU_INFO: 'Error while fetching PDU Info : {0}',
+    ERROR_WHILE_FETCHING_PORT_INFO: 'Error while fetching Port Info : {0}',
+    ERROR_WHILE_POWERING_ON_PORT: 'Error while Powering On Port : {0}',
+    ERROR_WHILE_POWERING_OFF_PORT: 'Error while Powering Off Port : {0}',
+    ERROR_WHILE_REBOOTING_PORT: 'Error while Rebooting Port : {0}'
+}
