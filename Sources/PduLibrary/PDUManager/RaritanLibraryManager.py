@@ -104,7 +104,6 @@ class RaritanLibraryManager(BaseObject, ABC):
         @param output: The default output
         @return: Status of Power On request
         """
-        # agent = rpc.Agent("https", "107.110.49.71", "admin", "siso@123")
         try:
             agent = rpc.Agent("https", ip, username, password)
             pdu = pdumodel.Pdu("/model/pdu/0", agent)
