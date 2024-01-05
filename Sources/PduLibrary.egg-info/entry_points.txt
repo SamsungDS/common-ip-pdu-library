@@ -1,5 +1,0 @@
-[PduLibrary.commands]
-restserver = PduLibrary.Commands.RestServer:RestServer
-
-[console_scripts]
-PduLibrary = PduLibrary.Apps.PduLibraryApp:main
