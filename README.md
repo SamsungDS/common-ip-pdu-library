@@ -8,7 +8,7 @@ The current supported IP PDU Models are provided below.
 4. Aten (PE6108) 
 
 Command to Start the REST Server
-PduLibraryApp.py restserver restart
+# PduLibraryApp.py restserver restart
 
 The above command will start the REST Server on default port 3486, which can be accessible using the below link and API documents for each REST API is available in the below Swagger link.
-http://localhost:3486/v1/spec.html
+# http://localhost:3486/v1/spec.html
